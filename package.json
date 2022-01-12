@@ -43,12 +43,15 @@
     "web-vitals": "^1.1.2",
     "cypress": "^9.2.1",
     "@cypress/xvfb": "^1.2.4",
-    "xvfb": "^0.4.0"
+    "xvfb": "^0.4.0",
+    "start-server-and-test": "^1.11.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "cypress run",
+    "cypress-run": "cypress run",
+    "int-test": "start-server-and-test next http://localhost:3000 cypress-run",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
