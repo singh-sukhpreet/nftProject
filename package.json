@@ -40,7 +40,8 @@
     "redux": "^4.1.2",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.4.1",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "cypress": "^9.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -65,8 +66,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "cypress": "^9.2.1"
   }
 }
