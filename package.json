@@ -47,7 +47,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts CI=false build",
+    "build": "react-scripts build",
     "test": "cypress run",
     "cypress-run": "cypress run",
     "int-test": "start-server-and-test http://localhost:3000 cypress-run",
