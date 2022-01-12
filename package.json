@@ -42,7 +42,8 @@
     "redux-thunk": "^2.4.1",
     "web-vitals": "^1.1.2",
     "cypress": "^9.2.1",
-    "@cypress/xvfb": "^1.2.4"
+    "@cypress/xvfb": "^1.2.4",
+    "xvfb": "^0.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
